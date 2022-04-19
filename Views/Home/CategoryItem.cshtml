@@ -1,30 +1,27 @@
-
+@model Collection
 <div class="text-center">
-    <h1 class="text-center">Category</h1>
+    <h1 class="text-center">@ViewBag.Category.Name</h1>
 </div>
 <div class="d-flex">
     <div class="one">
         <h2>Products:</h2>
         <ul>
-            @{
-                foreach(var i in ViewBag.AllCategories)
-                {
-                    <li>@i.Name</li>
-                }
+            @foreach (var item in ViewBag.Category.ProductList)
+            {
+                <li>@item.Product.Name</li>
             }
         </ul>
     </div>
     <div class="one">
-        <form action="/categories/new" method="post">
+        <form action="/Categories/post" method="post">
+            <input type="hidden" value="@ViewBag.Category.CategoryId" asp-for="CategoryId">
             <div class="form-group mb-2">
                 <label>Add Product: </label>
                 <span class="text-danger d-block"></span>
-                <select class="form-control">
-                    @{
-                        foreach(var x in ViewBag.UnAddedCategories)
-                        {
-                            <option value="1">@x.Name</option>
-                        }
+                <select class="form-control" asp-for="ProductId">
+                    @foreach (Product i in ViewBag.DropDown)
+                    {
+                        <option value="@i.ProductId">@i.Name</option>
                     }
                 </select>
             </div>

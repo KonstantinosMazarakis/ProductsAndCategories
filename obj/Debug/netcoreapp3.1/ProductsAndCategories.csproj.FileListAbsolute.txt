@@ -1,6 +1,5 @@
 C:\CodingDojo\c#\assigments\ProductsAndCategories\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\CodingDojo\c#\assigments\ProductsAndCategories\bin\Debug\netcoreapp3.1\appsettings.json
-C:\CodingDojo\c#\assigments\ProductsAndCategories\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\CodingDojo\c#\assigments\ProductsAndCategories\bin\Debug\netcoreapp3.1\ProductsAndCategories.exe
 C:\CodingDojo\c#\assigments\ProductsAndCategories\bin\Debug\netcoreapp3.1\ProductsAndCategories.deps.json
 C:\CodingDojo\c#\assigments\ProductsAndCategories\bin\Debug\netcoreapp3.1\ProductsAndCategories.runtimeconfig.json
@@ -32,7 +31,6 @@ C:\CodingDojo\c#\assigments\ProductsAndCategories\bin\Debug\netcoreapp3.1\Pomelo
 C:\CodingDojo\c#\assigments\ProductsAndCategories\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\CodingDojo\c#\assigments\ProductsAndCategories\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\CodingDojo\c#\assigments\ProductsAndCategories\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.csprojAssemblyReference.cache
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.AssemblyInfoInputs.cache
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.AssemblyInfo.cs
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.csproj.CoreCompileInputs.cache
@@ -54,10 +52,11 @@ C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\Produc
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.Views.pdb
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.csproj.CopyComplete
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\staticwebassets\ProductsAndCategories.StaticWebAssets.Manifest.cache
-C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\staticwebassets\ProductsAndCategories.StaticWebAssets.xml
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.dll
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.pdb
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.genruntimeconfig.cache
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\Razor\Views\Home\Categories.cshtml.g.cs
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\Razor\Views\Home\ProductItem.cshtml.g.cs
 C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\Razor\Views\Home\CategoryItem.cshtml.g.cs
+C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.csproj.AssemblyReference.cache
+C:\CodingDojo\c#\assigments\ProductsAndCategories\obj\Debug\netcoreapp3.1\ProductsAndCategories.GeneratedMSBuildEditorConfig.editorconfig

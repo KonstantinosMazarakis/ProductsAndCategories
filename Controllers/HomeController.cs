@@ -80,6 +80,8 @@ namespace ProductsAndCategories.Controllers
         [HttpGet("/Products/{id}")]
         public IActionResult ProductItem(int id)
         {
+            ViewBag.Product = _context.Products.Include(a => a.CategoryList).ThenInclude(w => w.Category).FirstOrDefault(a => a.ProductId == id);
+            ViewBag.DropDown = _context.Categories.Include(p => p.ProductList).Where(p => p.ProductList.All(a => a.ProductId != id));
             return View("ProductItem");
         }
 
@@ -88,10 +90,28 @@ namespace ProductsAndCategories.Controllers
         [HttpGet("/Categories/{id}")]
         public IActionResult CategoryItem(int id)
         {
-    
+            ViewBag.Category = _context.Categories.Include(a => a.ProductList).ThenInclude(w => w.Product).FirstOrDefault(a => a.CategoryId == id);
+            ViewBag.DropDown = _context.Products.Include(p => p.CategoryList).Where(p => p.CategoryList.All(a => a.CategoryId != id));
             return View("CategoryItem");
         }
 
+
+        [HttpPost("/Categories/post")]
+        public IActionResult CategoryPost(Collection NewCollection)
+        {
+            _context.Add(NewCollection);
+            _context.SaveChanges();
+            return Redirect($"/Categories/{NewCollection.CategoryId}");
+        }
+
+
+        [HttpPost("/Products/post")]
+        public IActionResult ProductsPost(Collection NewCollection)
+        {
+            _context.Add(NewCollection);
+            _context.SaveChanges();
+            return Redirect($"/Products/{NewCollection.ProductId}");
+        }
 
 
         public IActionResult Privacy()
@@ -106,3 +126,5 @@ namespace ProductsAndCategories.Controllers
         }
     }
 }
+
+

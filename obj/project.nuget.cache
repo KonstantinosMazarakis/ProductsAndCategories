@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "20nQbBcwoAFhxfrAg5EO7dDhOVDCfox0kaNvmXm2DtOXlreSlkgQJ6R6DTG+2aBg3qZA+WHGj+I+4xixG5y8hw==",
+  "dgSpecHash": "cbTVYz1lZjad0eUC0nbCL8eUvCSd02zSXUGDet3SDDiCSTIOCPRyFKpTb5/TdtgvGTMt0aXGQCLJ1G9ZrCAfrw==",
   "success": true,
   "projectFilePath": "C:\\CodingDojo\\c#\\assigments\\ProductsAndCategories\\ProductsAndCategories.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,9 @@
     "C:\\Users\\Kirito\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",
     "C:\\Users\\Kirito\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\Kirito\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\Kirito\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\Kirito\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\Kirito\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Kirito\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
   ],
   "logs": []
 }
