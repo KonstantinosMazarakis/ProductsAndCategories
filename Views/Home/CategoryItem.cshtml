@@ -1,0 +1,34 @@
+
+<div class="text-center">
+    <h1 class="text-center">Category</h1>
+</div>
+<div class="d-flex">
+    <div class="one">
+        <h2>Products:</h2>
+        <ul>
+            @{
+                foreach(var i in ViewBag.AllCategories)
+                {
+                    <li>@i.Name</li>
+                }
+            }
+        </ul>
+    </div>
+    <div class="one">
+        <form action="/categories/new" method="post">
+            <div class="form-group mb-2">
+                <label>Add Product: </label>
+                <span class="text-danger d-block"></span>
+                <select class="form-control">
+                    @{
+                        foreach(var x in ViewBag.UnAddedCategories)
+                        {
+                            <option value="1">@x.Name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Add">
+        </form>
+    </div>
+</div>
